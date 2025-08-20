@@ -42,7 +42,7 @@
         <p id="typing-text" class="text-x1 md:text-2xl text-gray-300"></p>
         <p class="hero-subtitle">Full Stack Developer &bull; JavaScript &bull; Next.js &bull; Node.js &bull; React
             &bull;
-            SQL &bull; TypeScript &bull; firebase &bull; python &bull; Cloud</p>
+            firebase &bull; python </p>
         <div class="social-icons mt-3">
             <a href="https://github.com/Tech-Guru19" title="GitHub"><i class="bi bi-github"></i></a>
             <a href="https://www.linkedin.com/in/obiasogu-esther-142a402b0/" title="LinkedIn"><i
@@ -126,7 +126,7 @@
                 <div class="card text-center p-3">
                     <div class="card-body">
                         <h5 class="card-title">Frontend</h5>
-                        <p>React, HTML5, CSS3, Bootstrap, JavaScript, TypeScript, SASS, Next.js</p>
+                        <p>React, HTML5, CSS3, Bootstrap, JavaScript</p>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                 <div class="card text-center p-3">
                     <div class="card-body">
                         <h5 class="card-title">Backend</h5>
-                        <p>Node.js, Express, Python, Django, REST APIs, GraphQL, Flask</p>
+                        <p>Node.js, Express, Python, MongoDB</p>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                 <div class="card text-center p-3">
                     <div class="card-body">
                         <h5 class="card-title">Database</h5>
-                        <p>MongoDB, PostgreSQL, MySQL, SQLite, Redis, Firebase</p>
+                        <p>MongoDB, LocalStorage, Firebase</p>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                 <div class="card text-center p-3">
                     <div class="card-body">
                         <h5 class="card-title">Other</h5>
-                        <p>Git, Docker, AWS, CI/CD, Agile, Linux, Figma, Webpack</p>
+                        <p>Git, Github, Slack, Vercel, Render, Figma</p>
                     </div>
                 </div>
             </div>
@@ -452,43 +452,47 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container py-5">
-        <h2 class="section-title">Contact Us</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-7 col-lg-6">
-                <div class="card p-4 shadow-lg border-0"
-                    style="background: linear-gradient(135deg, #23272b 80%, #181a1b 100%);">
-                    <div class="text-center mb-4">
-                        <div style="font-size:2.5rem;">
-                            <i class="bi bi-envelope-paper-heart" style="color:#ff00cc;"></i>
+
+    <form action="https://formspree.io/f/mpwlnrra" method="POST">
+        <section id="contact" class="container py-5">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-lg-6">
+                    <div class="card p-4 shadow-lg border-0"
+                        style="background: linear-gradient(135deg, #23272b 80%, #181a1b 100%);">
+                        <div class="text-center mb-4">
+                            <div style="font-size:2.5rem;">
+                                <i class="bi bi-envelope-paper-heart" style="color:#ff00cc;"></i>
+                            </div>
+                            <h4 style="color:#00d8ff; font-weight:700;">Let's Connect!</h4>
+                            <p class="mb-0" style="color:#b0b3b8;">I'd love to hear from you. Fill out the form and I'll
+                                get
+                                back to you soon.</p>
                         </div>
-                        <h4 style="color:#00d8ff; font-weight:700;">Let's Connect!</h4>
-                        <p class="mb-0" style="color:#b0b3b8;">I'd love to hear from you. Fill out the form and I'll get
-                            back to you soon.</p>
+                        <form autocomplete="off">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control bg-dark text-light border-0" id="name"
+                                    placeholder="Your Name" required>
+                                <label for="name"><i class="bi bi-person-fill me-2"></i>Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control bg-dark text-light border-0" id="email"
+                                    placeholder="name@example.com" required>
+                                <label for="email" name="email"><i class="bi bi-envelope-fill me-2"></i>Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control bg-dark text-light border-0" placeholder="Your message"
+                                    id="message" name="message" style="height: 120px;" required></textarea>
+                                <label for="message"><i class="bi bi-chat-dots-fill me-2"></i>Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-custom w-100 py-2 fs-5"><i
+                                    class="bi bi-send-fill me-2"></i>Send Message</button>
+                        </form>
                     </div>
-                    <form autocomplete="off">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control bg-dark text-light border-0" id="name"
-                                placeholder="Your Name" required>
-                            <label for="name"><i class="bi bi-person-fill me-2"></i>Name</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control bg-dark text-light border-0" id="email"
-                                placeholder="name@example.com" required>
-                            <label for="email"><i class="bi bi-envelope-fill me-2"></i>Email</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control bg-dark text-light border-0" placeholder="Your message"
-                                id="message" style="height: 120px;" required></textarea>
-                            <label for="message"><i class="bi bi-chat-dots-fill me-2"></i>Message</label>
-                        </div>
-                        <button type="submit" class="btn btn-custom w-100 py-2 fs-5"><i
-                                class="bi bi-send-fill me-2"></i>Send Message</button>
-                    </form>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </form>
 
     <!-- Footer -->
     <footer class="footer">
